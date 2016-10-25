@@ -1,0 +1,35 @@
+Sent from arduino (write)
+'a'	1.75 speed boost with 15 second cool down 
+'b'	1.5 power boost to shots for 30 seconds
+'c'	doubles active abilities for 30 seconds
+'d'	takes no damage for 7 seconds
+'h'	healing shot fired
+'i'	sheild activated
+'j'	stunned
+'k'	stun shot fired
+'l'	power up activated
+'w'	shoot
+
+'e'	gunner class
+'f'	tank class
+'g'	sniper class
+----------------------------------------------------------------------------------------------
+Sent from phone (read)
+'A'	end of 15 seconds, reset speed 
+'B	end of 30 seconds, reset power of shots
+'C'	end of 30 seconds, abilities changed to normal
+'D'	end of 7 seconds, no longer invincible
+'H'	healing shot reset
+'I'	sheild reset
+'J'	not stunned anymore 
+'K'	stun shot reset
+'L'	power up reset
+'M'	shoot reset
+'O'	magnit activated
+
+'W'	shoot button has been pressed
+'Y'	ability button has been pressed
+'X'	new coordanents are being sent
+'N'	no new coordanents are being sent, sets it to 100,100,100 
+
+

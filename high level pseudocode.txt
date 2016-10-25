@@ -1,0 +1,31 @@
+robot routine pseudocode version 1
+
+main()
+poll infrared, bluetooth (serial), colour sensor, bump sensors
+
+regular interrupt()
+poll infrared, bluetooth (serial), colour sensor
+
+move(direction)
+move specified distance in given direction
+
+shoot()
+send infrared code according to strength of shot
+
+IR_detect()
+change health variable depending on IR signal recieved
+
+bump_sensor()
+inflict damage to current health of robot
+
+colour_sensor()
+apply update to robot's current health/powerup status
+
+bluetooth_update()
+send updates on the robot's health to bluetooth devices
+
+update_robot(health, powerup, powerupduration)
+change health variables stored on robot
+
+power_status()
+poweroff or poweron
